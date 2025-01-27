@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>KeithSweets</title>
+    <link rel="icon" href="keithsweets.png" sizes="48x48" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="image/keithsweets.png" alt="logo" ><h1>KeithSweets</h1> </div>
+             <!-- Hamburger menu for mobile view -->
+         <button class="hamburger-menu" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <!-- Navigation menu items -->
+        <div class="navbar-menu">
+            <ul class="navbar-menu-items">
+                <li class="navbar-menu-item"><a href="#Home">Home</a></li>
+                <li class="navbar-menu-item"><a href="#About">About</a></li>
+                <li class="navbar-menu-item"><a href="#Menu">Menu</a></li>
+                <li class="navbar-menu-item"><a href="#Contact">Contact</a></li>
+                <li class="navbar-menu-item navbar-search shrink-only">
+                    <input type="text" id="search" placeholder="Search..." aria-label="Search">
+                </li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+    <section id="Home" class="Home">
+        <div class="home-left">
+            <h1>Welcome to Keith Sweets</h1>
+            <p>Where every bite is a delightful experience</p>
+        </div>
+        <div class="home-right">
+            <div class="carousel">
+                <img src="image/k1.jpg" alt="home-photo" class="carousel-image active">
+                <img src="image/k2.jpeg" alt="home-photo" class="carousel-image">
+                <img src="image/k3.jpeg" alt="home-photo" class="carousel-image">
+            </div>
+            <button class="carousel-button prev">❮</button>
+            <button class="carousel-button next">❯</button>
+        </div>
+    </section> 
+
+
+
+    <section id="About" class="About">
+        <h1>Baking is love made visible</h1>
+        <h2>At Keith Sweets, we believe that every cookie tells a story. Founded by Keith, a passionate baker with 
+            a love for all things sweet, our shop specializes in crafting delightful cookies that bring joy to every 
+            occasion.With a commitment to using only the finest ingredients, each batch is made with care and creativity, 
+            ensuring that our cookies are not just treats, but a memorable experience.<br><br>Whether you're indulging in our 
+            classic chocolate chip, savoring our oatmeal raisin, or trying our unique seasonal flavors, you'll taste the 
+            love and dedication that goes into every bite. Join us on this sweet journey and discover the magic of freshly 
+            baked cookies at Keith Sweets!
+        </h2>
+    </section>
+
+    <section id="Menu" class="Menu">
+        <h1 class="menu-title">Menu</h1>
+        <h1 class="menu-title">Cookies</h1>
+        <div class="grid-section">
+            <div class="best-cookies">
+                <div class="img-box">
+                    <img src="image/Classic Cookies.jpg" alt="Classic Cookies">
+                    <h2>Classic Cookies</h2>
+                    <p class="price">35.00</p>
+                </div>
+            </div>
+    
+            <div class="best-cookies">
+                <div class="img-box">
+                    <img src="image/Red Cookie.jpg" alt="Red Cookie">
+                    <h2>Red Cookie</h2>
+                    <p class="price">35.00</p>
+                </div>
+            </div>
+    
+            <div class="best-cookies">
+                <div class="img-box">
+                    <img src="image/Triple Choco.jpg" alt="Triple Choco">
+                    <h2>Triple Choco</h2>
+                    <p class="price">35.00</p>
+                </div>
+            </div>
+        </div>
+    
+        <h1 class="menu-title">Cake on Tubs</h1>
+        <div class="grid-section-cake">
+            <div class="cake-on-tubs">
+                <div class="img-box">
+                    <img src="image/cake-choco-removebg-preview.png" alt="Cake on Tubs Chocolate">
+                    <h2>Cake on Tubs<br>Chocolate</h2>
+                    <p class="price">70.00</p>
+                </div>
+            </div>
+    
+            <div  class="cake-on-tubs">
+                <div class="img-box">
+                    <img src="image/cake-strawberry-removebg-preview.png" alt="Cake on Tubs Strawberry">
+                    <h2>Cake on Tubs<br>Strawberry</h2>
+                    <p class="price">105.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Contact" class="contact">
+        <h1>CONTACT US</h1>
+        <div class="img-contact">
+            <img src="image/keithsweets.png" alt="Keith Sweets Logo">
+        </div>
+        <p>Follow us on:</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/keith.sweets.2024" aria-label="Facebook"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook"></a>
+            <p1>Facebook</p1>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 KeithSweets.All Rights Reserved..</p>
+            <div class="footer-menu">
+                <ul class="footer-menu-items">
+                    <li class="footer-menu-item"><a href="#Home">Home</a></li>
+                    <li class="footer-menu-item"><a href="#Menu">Menu</a></li>
+                    <li class="footer-menu-item"><a href="#About">About</a></li>
+                    <li class="footer-menu-item"><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
