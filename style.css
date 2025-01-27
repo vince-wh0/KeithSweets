@@ -38,7 +38,7 @@ header {
     position: sticky; 
     top: 0; 
     z-index: 1000; 
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 nav {
@@ -68,11 +68,12 @@ nav {
     display: flex; 
     list-style-type: none; /* Remove bullet points */
     margin: 0;
-    padding: 30px; 
+    padding: 0; 
    
 }
 
 .navbar-menu-item {
+    padding: 30px;  
     gap: 1em; 
 }
 
